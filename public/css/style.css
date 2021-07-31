@@ -1,0 +1,307 @@
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+body{
+    font-family: 'Cabin';
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../assets/images/potenciar-campanas-shopping.jpg");
+    background-size: cover;
+}
+
+.container {
+  width: 75%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+.topnav {
+    background-color: ghostwhite;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: blue;
+    color: white;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.card__cover {
+    height: 20px;
+    width: 100%;
+}
+
+.card__image {
+    display: block;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50%;
+}
+
+.card__content {
+    /* Take available height */
+    flex: 1;
+}
+
+.grid-1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.grid-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.grid-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.grid-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 10px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    width: 30%;
+    height: 30%;
+}
+
+.btn-red{
+    background-color: red;
+}
+
+.btn-green{
+    background-color: green;
+}
+
+.btn-blue{
+    background-color: blue;
+}
+
+.btn-yellow{
+    background-color: yellow;
+}
+
+.btn-pink{
+    background-color: pink;
+}
+
+.btn-black{
+    background-color: black;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.bg-green{
+    background-color: green;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.w-full button{
+    cursor: pointer;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.input-label{
+    margin-bottom: 12px;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.input-text{
+    color: black;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.input-text:hover{
+    background-color:  rgb(71, 71, 71);
+    border: none;
+    border: 1px solid rgb(1, 248, 1);
+}
+
+.box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 1080px;
+    border: 1px solid rgb(71, 71, 71);
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+}
+
+.text-success{
+    color: green;
+}
+
+.text-error{
+    color: red;
+}
+
+.side_menu{
+    list-style: none;
+}
+
+.side_list{
+    text-decoration: none;
+    margin-bottom: 4px;
+    width: 100%;
+    color: blue;
+}
+
+.side_list > li{
+    padding: 0px 8px 0px 8px;
+}
+
+.side_list > li :hover{
+    background-color: black;
+}
+
+.side_list:hover{    
+    color: white;
+}
+
+.border-black{
+    border: black 2px solid;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+    text-align: center;
+}
+
+@media(max-width: 768px){
+    .container{
+        width: 100%;
+    }
+   .grid-3{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+   }
+   .box{
+       width: 100%;
+       padding-left: 24px;
+   }
+   .w-full{
+       width: 90%;
+   }
+   #footer{
+       display: none;
+   }
+}
+
+@media(max-width: 480px){
+    .container{
+        width: 100%;
+    }
+    .grid-3{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .box{
+        width: 100%;
+    }
+    .grid-3 .card{
+        width: 100%;
+    }
+    .w-full{
+        width: 85%;
+    }
+    #footer{
+        display: none;
+    } 
+    .text-center{
+        text-align: justify;
+    } 
+}

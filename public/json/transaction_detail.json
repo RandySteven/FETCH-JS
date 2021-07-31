@@ -1,0 +1,48 @@
+{
+    "transaction_details":[
+        {
+            "transaction":{
+                "transaction_id":"TR001",
+                "transaction_date":"2020-12-30",
+                "user":{
+                    "user_id":1,
+                    "fullName" : "Michael The",
+                    "email" : "michael21@gmail.com",
+                    "password" : "Pass1234",
+                    "address" : "Jalan Juanda Ruko Permai No. 1A",
+                    "phoneNumber" : "+628543758234"
+                }    
+            },
+            "product":{
+                "productId" : "PR001",
+                "productName" : "Mie Ramen Pedas",
+                "productPrice" : 25000,
+                "productDescription" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+                "productImage" : "ramen_pedas.jpg"
+            },
+            "quantity":2
+        },
+        {
+            "transaction":{
+                "transaction_id":"TR001",
+                "transaction_date":"2020-12-30",
+                "user":{
+                    "user_id":1,
+                    "fullName" : "Michael The",
+                    "email" : "michael21@gmail.com",
+                    "password" : "Pass1234",
+                    "address" : "Jalan Juanda Ruko Permai No. 1A",
+                    "phoneNumber" : "+628543758234"
+                }    
+            },
+            "product":{
+                "productId" : "PR005",
+                "productName" : "Ocha Dingin",
+                "productPrice" : 8000,
+                "productDescription" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+                "productImage" : "ocha_dingin.jpg"
+            },
+            "quantity":2
+        }
+    ]
+}

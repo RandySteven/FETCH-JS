@@ -1,0 +1,42 @@
+{
+    "delivers":[
+        {
+            "deliverId":"DV001",
+            "product":{
+                "productId" : "PR001",
+                "productName" : "Mie Ramen Pedas",
+                "productPrice" : 25000,
+                "productDescription" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+                "productImage" : "ramen_pedas.jpg"
+            },
+            "statement":"Delivered",
+            "payment":"Paid"
+        },
+        {
+            "deliverId":"DV001",
+            "product":
+                {
+                    "productId" : "PR002",
+                    "productName" : "Mie Ramen Shoyu",
+                    "productPrice" : 25000,
+                    "productDescription" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+                    "productImage" : "ramen_shoyu.jpg"
+                },
+            "statement":"Paid",
+            "payment":"Paid"
+        },
+        {
+            "deliverId":"DV001",
+            "product":
+            {
+                "productId" : "PR005",
+                "productName" : "Ocha Dingin",
+                "productPrice" : 8000,
+                "productDescription" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+                "productImage" : "ocha_dingin.jpg"
+            },
+            "statement":"Inprogress",
+            "payment":"Paid"
+        }
+    ]
+}

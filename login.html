@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+        <div class="box">
+            <h1 class="text-center">Login</h1>
+            <form action="index.html" onsubmit="return loginValidation()" name="loginForm" id="loginForm" >  
+                <div class="form-group">
+                    <label for="" class="input-label">Email</label> <br>
+                    <input type="email" class="w-full input-text" name="email" id="email">
+                    <span id="message_email"></span>
+                </div>
+    
+                <div class="form-group">
+                    <label for="" class="input-label">Password</label><br>
+                    <input type="password" class="w-full input-text" name="password" id="password">
+                    <span id="message_password"></span>
+                </div>
+                <button type="submit" class="w-full btn btn-green">Submit</button>
+            </form>
+        </div>
+
+        <footer id="footer">
+            &copy; Randy Steven <br>
+                    <a href="https://github.com/RandySteven"><img src="./public/assets/images/github-logo.png" width="30" alt=""></a>
+                    <a href="https://www.linkedin.com/in/randy-steven-a41a76192/"><img src="./public/assets/images/linkedin.png" width="30" alt=""></a>
+                <div>
+                    email : randysteven12@gmail.com <br>
+                    phone-number : +6285347391672
+                </div>
+            </div>
+        </footer>
+    <script src="public/js/script.js"></script>
+    <noscript>This browser doesn't support javascript</noscript>
+</body>
+</html>

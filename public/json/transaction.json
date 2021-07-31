@@ -1,0 +1,64 @@
+{
+    "transactions":[
+        {
+            "transaction_id":"TR001",
+            "transaction_date":"2020-12-30",
+            "user":{
+                "user_id":1,
+                "fullName" : "Michael The",
+                "email" : "michael21@gmail.com",
+                "password" : "Pass1234",
+                "address" : "Jalan Juanda Ruko Permai No. 1A",
+                "phoneNumber" : "+628543758234"
+            }        
+        },
+        {
+            "transaction_id":"TR002",
+            "transaction_date":"2020-12-30",
+            "user":{
+                "user_id":2,
+                "fullName" : "Crespo",
+                "email" : "crespo_z32@gmail.com",
+                "password" : "Cres1234",
+                "address" : "Jalan Apel Komplek Permain 2",
+                "phoneNumber" : "+628543758123"
+            }
+        },
+        {
+            "transaction_id":"TR003",
+            "transaction_date":"2020-12-30",
+            "user":{
+                "user_id":5,
+                "fullName" : "William Aflredo",
+                "email" : "will_afredz23@gmail.com",
+                "password" : "LauPak12",
+                "address" : "Jalan Tanjung Pura Komplek Sakura Permai 23",
+                "phoneNumber" : "+62854375832"        
+            }
+        },
+        {
+            "transaction_id":"TR004",
+            "transaction_date":"2020-12-30",
+            "user":{
+                "user_id":6,
+                "fullName" : "Michael The",
+                "email" : "michael21@gmail.com",
+                "password" : "Pass1234",
+                "address" : "Jalan Juanda Ruko Permai No. 1A",
+                "phoneNumber" : "+628543758234"
+            }
+        },
+        {
+            "transaction_id":"TR005",
+            "transaction_date":"2020-12-30",
+            "user":{
+                "user_id":9,
+                "fullName" : "Noppri",
+                "email" : "limfepfep2@gmail.com",
+                "password" : "Pass2345",
+                "address" : "Jalan Setia Budi No. 9A",
+                "phoneNumber" : "+628543758114"
+            }
+        }
+    ]
+}

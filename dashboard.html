@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Management Data</title>
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+    <link rel="stylesheet" href="public/css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                        </span>
+                        <span class="title"> <h2>Brand Name</h2> </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <i class="fa fa-home" aria-hidden="true"></i>
+                        </span>
+                        <span class="title"> Dashboard </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <i class="fa fa-users" aria-hidden="true"></i>
+                        </span>
+                        <span class="title"> Customer </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <i class="fa fa-comments" aria-hidden="true"></i>
+                        </span>
+                        <span class="title"> Message </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <i class="fa fa-question-circle" aria-hidden="true"></i>
+                        </span>
+                        <span class="title"> Help </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <i class="fa fa-cog" aria-hidden="true"></i>
+                        </span>
+                        <span class="title"> Settings </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <i class="fa fa-lock" aria-hidden="true"></i>
+                        </span>
+                        <span class="title"> Password </span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon">
+                            <i class="fa fa-sign-out" aria-hidden="true"></i>
+                        </span>
+                        <span class="title"> Sign out </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <div class="search">
+                <label for="">
+                    <input type="text" name="" placeholder="Search here" id="">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                </label>
+            </div>
+            <div class="user">
+                <img src="./images/ramen_curry.jpeg" alt="">
+            </div>
+        </div>
+
+        <div class="cardBox">
+            <div class="card">
+                <div>
+                    <div class="numbers">1,042</div>
+                    <div class="cardName">Daily Views</div>
+                </div>
+                <div class="iconBox">
+                    <i class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">82</div>
+                    <div class="cardName">Sales</div>
+                </div>
+                <div class="iconBox">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">208</div>
+                    <div class="cardName">Comments</div>
+                </div>
+                <div class="iconBox">
+                    <i class="fa fa-comments" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <div class="numbers">$6.052</div>
+                    <div class="cardName">Earning</div>
+                </div>
+                <div class="iconBox">
+                    <i class="fa fa-usd" aria-hidden="true"></i>
+                </div>
+            </div>
+
+        </div>
+        <div class="details">
+            
+            <div class="recentOrders">
+                <div class="cardHeader">
+                    <h2>Recent Orders</h2>
+                    <a href="#" class="btn">View All</a>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Payment</th>
+                            <th>Statement</th>
+                        </tr>
+                    </thead>
+                    <tbody id="delivers">    
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="recentCustomers">
+                <div class="cardHeader">
+                    <h2>Recent Customers</h2>
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Nama</th>
+                            <th>Email</th>
+                            <th>Phone Number</th>
+                            <th>Address</th>
+                        </tr>
+                    </thead>
+                    <tbody id="users"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="public/js/script.js"></script>
+    <noscript>This browser doesn't support javascript</noscript>
+</body>
+</html>

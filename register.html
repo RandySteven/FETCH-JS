@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin' rel='stylesheet'>
+</head>
+<body>
+        <div class="box">
+            <h1 class="text-center">Register</h1>
+            <form action="index.html" onsubmit="return registerValidation()" name="registerForm">
+                <div class="form-group">
+                    <label for="" class="input-label">Full Name</label> <br>
+                    <input type="text" class="w-full input-text" name="fullName" id="fullName">
+                    <span id="message_fullName"></span>
+                </div>
+    
+                <div class="form-group">
+                    <label for="" class="input-label">Email</label> <br>
+                    <input type="email" class="w-full input-text" name="email" id="email">
+                    <span id="message_email"></span>
+                </div>
+    
+                <div class="form-group">
+                    <label for="" class="input-label">Password</label> <br>
+                    <input type="password" class="w-full input-text" name="password" id="password">
+                    <span id="message_password"></span>
+                </div>
+    
+                <div class="form-group">
+                    <label for="" class="input-label">Phone Number</label> <br>
+                    <input type="text" class="w-full input-text" name="phoneNumber" id="phoneNumber">
+                    <span id="message_phoneNumber"></span>
+                </div>
+    
+                <div class="form-group">
+                    <label for="" class="input-label">Date of Birth</label> <br>
+                    <input type="date" class="w-full input-text" name="dob" id="dob">
+                    <span id="message_dob"></span>
+                </div>
+    
+                <div class="form-group">
+                    <label for="address" class="input-label">Address</label> <br>
+                    <textarea name="address" id="address" class="w-full input-text" rows="10"></textarea>
+                    <span id="message_address"></span>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="w-full btn btn-green">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            &copy; Randy Steven <br>
+                    <a href="https://github.com/RandySteven"><img src="./public/assets/images/github-logo.png" width="30" alt=""></a>
+                    <a href="https://www.linkedin.com/in/randy-steven-a41a76192/"><img src="./public/assets/images/linkedin.png" width="30" alt=""></a>
+                <div>
+                    email : randysteven12@gmail.com <br>
+                    phone-number : +6285347391672
+                </div>
+            </div>
+        </footer>
+    <script src="public/js/script.js"></script>
+    <noscript>This browser doesn't support javascript</noscript>
+</body>
+</html>
